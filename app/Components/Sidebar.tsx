@@ -22,7 +22,7 @@ const Sidebar = () => {
 
             {/* Resume */}
             <a
-                href='https://www.overleaf.com/download/project/653208328a6ca9fff2206509/build/18c6d360cb6-9c22197aba4a9d52/output/output.pdf?compileGroup=standard&clsiserverid=clsi-pre-emp-n2d-b-f-4t72&enable_pdf_caching=true&popupDownload=true'
+                href='/Harsh_Sharma_Resume.pdf'
                 download='Harsh Sharma Resume.pdf'
                 className='flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-black-500'>
                 <MdOutlineDocumentScanner className='w-6 h-6' />
