@@ -1,6 +1,10 @@
 import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from 'react-icons/ai'
 import { MdOutlineDocumentScanner } from "react-icons/md";
 import { GoLocation } from 'react-icons/go'
+import { Kaushan_Script } from 'next/font/google';
+import { SiLeetcode } from "react-icons/si";
+
+const inter = Kaushan_Script({ weight: '400', subsets: ['latin'], })
 
 const Sidebar = () => {
     return (
@@ -9,7 +13,7 @@ const Sidebar = () => {
             <img src="https://jiitopticachapter.in/images/core%20team%20img/Harsh_Sharma.webp" alt="avatar of user" className='w-32 h-32 mx-auto border rounded-full ' />
 
             {/* Name and Designation*/}
-            <h3 className='my-4 text-3xl font-medium tracking-wider font-kaushan'>
+            <h3 className={`my-4 text-3xl font-medium tracking-wider font-kaushan ${inter.className}`}>
                 <span className='text-green '>Harsh</span> Sharma
             </h3>
             <p className='px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-black-500'>
@@ -18,8 +22,8 @@ const Sidebar = () => {
 
             {/* Resume */}
             <a
-                href='/assets/Sumit Dey Resume.pdf'
-                download='Sumit Dey Resume.pdf'
+                href='https://www.overleaf.com/download/project/653208328a6ca9fff2206509/build/18c6d360cb6-9c22197aba4a9d52/output/output.pdf?compileGroup=standard&clsiserverid=clsi-pre-emp-n2d-b-f-4t72&enable_pdf_caching=true&popupDownload=true'
+                download='Harsh Sharma Resume.pdf'
                 className='flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-black-500'>
                 <MdOutlineDocumentScanner className='w-6 h-6' />
                 <span>Download Resume</span>
@@ -27,13 +31,13 @@ const Sidebar = () => {
 
             {/* Socials */}
             <div className='flex justify-around w-9/12 mx-auto my-5 text-green md:w-full '>
-                <a href='https://www.youtube.com/channel/UClW8d1f5m0QAE_Ig024EP6A'>
-                    <AiFillYoutube className='w-8 h-8 cursor-pointer' />
+                <a href='https://leetcode.com/XoXoHarsh/' target='_blank'>
+                    <SiLeetcode className='w-8 h-8 cursor-pointer' />
                 </a>
-                <a href='https://www.linkedin.com/in/sumit-dey-4a04431a9/'>
+                <a href='https://www.linkedin.com/in/harshsharma20503/' target='_blank'>
                     <AiFillLinkedin className='w-8 h-8 cursor-pointer' />
                 </a>
-                <a href='https://www.instagram.com/_sumax__/'>
+                <a href='https://github.com/HarshSharma20503' target='_blank'>
                     <AiFillGithub className='w-8 h-8 cursor-pointer' />{' '}
                 </a>
             </div>
@@ -50,12 +54,12 @@ const Sidebar = () => {
             </div>
 
             <button
-                className='w-8/12 px-5 py-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-blue-500 hover:scale-105 focus:outline-none'
+                className='w-8/12 px-5 py-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green-500 to-blue-500 hover:scale-105 focus:outline-none'
             >
                 Email me
             </button>
             <button
-                className='w-8/12 px-5 py-2 my-4 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-blue-500 focus:outline-none hover:scale-105 '>
+                className='w-8/12 px-5 py-2 my-4 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green-500 to-blue-500 focus:outline-none hover:scale-105 '>
                 Change Theme
             </button>
         </>
