@@ -3,6 +3,7 @@ import { MdOutlineDocumentScanner } from "react-icons/md";
 import { GoLocation } from 'react-icons/go'
 import { Kaushan_Script } from 'next/font/google';
 import { SiLeetcode } from "react-icons/si";
+import { url } from 'inspector';
 
 const inter = Kaushan_Script({ weight: '400', subsets: ['latin'], })
 
@@ -53,8 +54,10 @@ const Sidebar = () => {
                 <p className='my-2'> 8383936346 </p>
             </div>
 
+            {/* Email Button */}
             <button
                 className='w-8/12 px-5 py-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green-500 to-blue-500 hover:scale-105 focus:outline-none'
+                // onClick={()=> window.open()}
             >
                 Email me
             </button>

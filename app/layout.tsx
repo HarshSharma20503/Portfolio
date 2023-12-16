@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className='h-screen w-screen'>
-      <body className={`flex items-center justify-center h-full w-full bg-gradient-to-tr from-green-500 to-blue-500 ${inter.className}`}>
+      <body className={`bg-fixed bg-gradient-to-r from-green to-blue-500 dark:from-black-500 dark:to-black-700 ${inter.className}`}>
         {children}
       </body>
     </html>
