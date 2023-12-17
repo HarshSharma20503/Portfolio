@@ -1,5 +1,6 @@
 import React from 'react'
 import Sidebar from './Components/Sidebar'
+import Navbar from './Components/Navbar'
 
 const page = () => {
   return (
@@ -9,7 +10,7 @@ const page = () => {
       </div>
       <div className='flex flex-col col-span-12 bg-white rounded-2xl dark:text-white lg:col-span-9'>
         {/* Navbar */}
-        Mainbar
+        <Navbar/>
         {/* About */}
       </div>
     </div>
