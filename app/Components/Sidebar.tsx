@@ -5,6 +5,7 @@ import { Kaushan_Script } from 'next/font/google';
 import { SiLeetcode } from "react-icons/si";
 import EmailButton from '../Utility Components/EmailButton';
 import ChangeThemeButton from '../Utility Components/ChangeThemeButton';
+import Image from 'next/image';
 
 const inter = Kaushan_Script({ weight: '400', subsets: ['latin'], })
 
@@ -13,7 +14,14 @@ const Sidebar = () => {
     return (
         <>
             {/* Image */}
-            <img src="https://jiitopticachapter.in/images/core%20team%20img/Harsh_Sharma.webp" alt="avatar of user" className='w-32 h-32 mx-auto border rounded-full ' />
+            <Image
+                src="/Harsh_Sharma.webp"
+                alt="avatar of user"
+                width={128}
+                height={128}
+                className="mx-auto border rounded-full"
+            />
+            {/* <img src="https://jiitopticachapter.in/images/core%20team%20img/Harsh_Sharma.webp" alt="avatar of user" className='w-32 h-32 mx-auto border rounded-full ' /> */}
 
             {/* Name and Designation*/}
             <h3 className={`my-4 text-3xl font-medium tracking-wider font-kaushan ${inter.className}`}>
@@ -57,10 +65,10 @@ const Sidebar = () => {
             </div>
 
             {/* Email Button */}
-            <EmailButton/>
+            <EmailButton />
 
             {/* Change themes */}
-            <ChangeThemeButton />            
+            <ChangeThemeButton />
         </>
     )
 }

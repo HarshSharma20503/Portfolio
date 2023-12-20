@@ -18,7 +18,7 @@ const Resume = () => {
               CGPA : 8.7/10
             </p>
             <h5 className='my-2 text-xl font-bold '>
-              ST. Joseph's School (2007-2021)
+              ST. Joseph&apos;s School (2007-2021)
             </h5>
             <p className='font-semibold'>
               12th Class
