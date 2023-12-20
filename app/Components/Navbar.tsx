@@ -27,8 +27,8 @@ const NavItem: FunctionComponent<NavItemProps> = ({ active, setActive, name }) =
 const Navbar: FunctionComponent<NavbarProps> = ({ active, setActive }) => {
 
   return (
-    <div className='flex items-center justify-between px-5 py-3 my-3'>
-      <span className='text-xl font-bold border-b-4 md:text-2xl text-green'>{active}</span>
+    <div className='flex items-center justify-between px-5 py-3 my-3 '>
+      <span className='text-xl font-bold border-b-4 md:text-2xl text-green '>{active}</span>
 
       <div className='text-base text-red-400 font-normal md:text-xl'>
         <NavItem active={active} setActive={setActive} name='About' />
