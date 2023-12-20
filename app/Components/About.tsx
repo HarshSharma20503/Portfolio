@@ -13,7 +13,7 @@ const About = () => {
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 "
         style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
       >
-        <h4 className="my-3 text-xl font-semibold tracking-wide text-black text-center">
+        <h4 className="my-3 text-xl font-semibold tracking-wide text-center">
           What I am doing
         </h4>
 

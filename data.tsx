@@ -16,7 +16,7 @@ export const services: Service[] = [
     {
         Icon: FaServer,
         title: "Backend  Development",
-        about: "I've crafted REST APIs, incorporating the power of <b>MongoDB</b> for seamless database management and utilizing <b>Express.js</b> with <b>Node.js</b> for server-side development. ",
+        about: "I've had the opportunity to work on REST APIs, utilizing the strengths of <b>MongoDB</b> for efficient database management and on <b>Express.js</b> with <b>Node.js</b> for server-side development.",
     },
     {
         Icon: MdDeveloperMode,
@@ -44,8 +44,8 @@ export const services: Service[] = [
 export const languages: Skill[] = [
     {
         Icon: BsCircleFill,
-        name: "Python",
-        level: "45",
+        name: "C++",
+        level: "80",
     },
     {
         Icon: BsCircleFill,
@@ -54,8 +54,8 @@ export const languages: Skill[] = [
     },
     {
         Icon: BsCircleFill,
-        name: "React Native",
-        level: "80",
+        name: "Python",
+        level: "40",
     },
     {
         Icon: BsCircleFill,
@@ -64,36 +64,36 @@ export const languages: Skill[] = [
     },
     {
         Icon: BsCircleFill,
-        name: "Django",
-        level: "80",
+        name: "Express js",
+        level: "50",
     },
     {
         Icon: BsCircleFill,
-        name: "Bootstrap",
-        level: "80",
+        name: "Node js",
+        level: "50",
     },
 ];
 
 export const tools: Skill[] = [
     {
         Icon: BsCircleFill,
-        name: "Figma",
-        level: "85",
+        name: "Git/Github",
+        level: "80",
     },
     {
         Icon: BsCircleFill,
-        name: "Photoshop",
-        level: "45",
+        name: "Firebase",
+        level: "70",
     },
     {
         Icon: BsCircleFill,
-        name: "Illustrator",
-        level: "60",
+        name: "ChatGPT",
+        level: "80",
     },
     {
         Icon: BsCircleFill,
-        name: "Framer",
-        level: "45",
+        name: "VS Code",
+        level: "70",
     },
 ];
 
