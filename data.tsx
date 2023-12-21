@@ -50,13 +50,13 @@ export const languages: Skill[] = [
     },
     {
         Icon: BsCircleFill,
-        name: "Java Script",
+        name: "JavaScript",
         level: "60",
     },
     {
         Icon: BsCircleFill,
         name: "Python",
-        level: "40",
+        level: "50",
     },
     {
         Icon: BsCircleFill,
@@ -65,13 +65,13 @@ export const languages: Skill[] = [
     },
     {
         Icon: BsCircleFill,
-        name: "Express js",
-        level: "50",
+        name: "Express",
+        level: "60",
     },
     {
         Icon: BsCircleFill,
-        name: "Node js",
-        level: "50",
+        name: "Node",
+        level: "60",
     },
 ];
 
