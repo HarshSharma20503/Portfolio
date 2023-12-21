@@ -3,6 +3,7 @@ import { MdOutlineDocumentScanner } from "react-icons/md";
 import { GoLocation } from 'react-icons/go'
 import { Kaushan_Script } from 'next/font/google';
 import { SiLeetcode } from "react-icons/si";
+import { SiCodeforces} from  "react-icons/si";
 import EmailButton from '../Utility Components/EmailButton';
 import ChangeThemeButton from '../Utility Components/ChangeThemeButton';
 import Image from 'next/image';
@@ -15,7 +16,7 @@ const Sidebar = () => {
         <>
             {/* Image */}
             <Image
-                src="/Harsh_Sharma.webp"
+                src="/images/ProfilePic.jpeg"
                 alt="avatar of user"
                 width={200}
                 height={200}
@@ -43,15 +44,22 @@ const Sidebar = () => {
 
             {/* Socials */}
             <div className='flex justify-around w-9/12 mx-auto my-5 text-green md:w-full '>
-                <a href='https://leetcode.com/XoXoHarsh/' target='_blank'>
-                    <SiLeetcode className='w-8 h-8 cursor-pointer' />
-                </a>
                 <a href='https://www.linkedin.com/in/harshsharma20503/' target='_blank'>
                     <AiFillLinkedin className='w-8 h-8 cursor-pointer' />
                 </a>
+
                 <a href='https://github.com/HarshSharma20503' target='_blank'>
                     <AiFillGithub className='w-8 h-8 cursor-pointer' />{' '}
                 </a>
+
+                <a href='https://leetcode.com/XoXoHarsh/' target='_blank'>
+                    <SiLeetcode className='w-8 h-8 cursor-pointer' />
+                </a>
+
+                <a href='https://codeforces.com/profile/XoXoHarsh' target='_blank'>
+                    <SiCodeforces className='w-8 h-8 cursor-pointer' />
+                </a>
+
             </div>
 
             {/* Contacts */}
