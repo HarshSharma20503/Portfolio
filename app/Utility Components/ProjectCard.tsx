@@ -32,7 +32,7 @@ const ProjectCard: FunctionComponent<{
         <p className="my-2 text-center flex flex-col justify-around">{name}</p>
 
         {showDetail === id && (
-          <div className="absolute top-0 left-0 z-10 grid w-full h-auto p-2 md:p-10 text-black bg-gray-300 md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100 rounded-lg">
+          <div className="fixed top-1/2 left-1/2 z-10 transform -translate-x-1/2 -translate-y-1/2 grid w-5/6 lg:w-3/5 h-auto p-2 md:p-10 text-black bg-gray-300 md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100 rounded-lg">
             <motion.div
               variants={stagger}
               animate='animate'
@@ -78,9 +78,9 @@ const ProjectCard: FunctionComponent<{
               animate='animate'
               initial='initial'
             >
-              <motion.h2 variants={fadeinUP} className="mb-3 text-xl font-medium md:text-2xl">{name}</motion.h2>
+              <motion.h2 variants={fadeinUP} className="mb-3 text-xl font-medium md:text-2xl text-center">{name}</motion.h2>
 
-              <motion.h3 variants={fadeinUP} className="mb-3 font-medium">{description}</motion.h3>
+              <motion.h3 variants={fadeinUP} className="mb-3 font-medium text-justify">{description}</motion.h3>
 
               <motion.div variants={fadeinUP} className="flex flex-wrap mt-5 space-x-2 text-sm tracking-wider">
                 {key_techs.map((tech) => (

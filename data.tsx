@@ -104,7 +104,7 @@ export const projects: IProject[] = [
         name: "CodersHub",
         displayName : "Demo Video",
         description:
-            "Streamlining mobile coding by consolidating profiles and daily problems from platforms like LeetCode, Gfg, and Codeforces, eliminating the need for screenshots or frequent browser logins. The user-friendly interface ensures a seamless experience without switching between apps.",
+            "CodersHub simplifies access to coding profiles, addressing challenges faced by coders on platforms like LeetCode and Codeforces via mobile devices. The mobile application streamlines the process of checking profiles and ratings, eliminating the need for taking screenshots or repeated logins. With its user-friendly interface, CodersHub consolidates coding profiles, providing a seamless experience for tackling daily problems from various platforms in one place.",
         image_path: "/images/CodersHub.png",
         deployed_url: "https://covid-19-tracker-by-sumit.web.app/",
         github_url: "https://github.com/HarshSharma20503/CodersHub",
@@ -120,7 +120,7 @@ export const projects: IProject[] = [
         github_url: "https://github.com/HarshSharma20503/Concadmic",
         category: ["react","firebase"],
         description:
-            "A student-focused platform offering academic resources, insightful blogs from seniors, and a networking hub, with event updates for colleges, enhancing collaboration and accessibility for students.",
+            "Concadmic is a comprehensive and a user-friendly platform where several blogs of experienced seniors along with all required academic resources are available and easily accessible to all the students of their particular college. It also serves as a networking platform where any student can easily reach out to their seniors or peers. Apart from the blogging feed and the academic resources section, there is an events section where all the upcoming college events of that college and other colleges will be posted.",
         key_techs: ["React", "Firebase Auth", "Firebase Storage", "Bootstrap"],
     },
     {
@@ -132,7 +132,7 @@ export const projects: IProject[] = [
         github_url: "https://github.com/jiitopticachapter/optica-website-2023",
         category: ["react"],
         description:
-            "An official website is the face of any organization. This website has been built to act as a point of contact between JIIT Optica Chapter and all the students who are interested in being a part of it in the future. This website also provides the details of past events to our sponsors.",
+            "As the virtual face of JIIT Optica Chapter, our official website serves as a dynamic hub for prospective members, fostering meaningful connections and providing crucial insights into our rich history of events. Not only does it act as a gateway for future involvement, but it also stands as a testament to our accomplishments, offering sponsors a comprehensive view of our impactful journey.",
         key_techs: [
             "React",
             "React-router-dom",
@@ -150,7 +150,7 @@ export const projects: IProject[] = [
         github_url: "https://github.com/harshsharma20503/portfolio",
         category: ["Next"],
         description:
-            "Discover my portfolio project, a straightforward compilation reflecting my diverse capabilities and experiences. It provides a clear snapshot of my work, showcasing a range of projects that highlight simplicity, functionality, and practicality.",
+            "Explore my portfolio project—a concise compilation offering a comprehensive overview of my diverse skill set and experiences. Through an intuitive interface, it seamlessly presents a spectrum of projects, emphasizing simplicity, functionality, and practicality, providing a nuanced reflection of my professional journey.",
         key_techs: ["Next", "Typescript", "Tailwind"],
     },
     {
