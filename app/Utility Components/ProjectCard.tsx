@@ -1,4 +1,4 @@
-import { FunctionComponent} from "react";
+import { FunctionComponent } from "react";
 import { AiFillGithub, AiFillProject } from "react-icons/ai";
 import { MdClose } from "react-icons/md";
 import { IProject } from "@/types";
@@ -9,17 +9,17 @@ import { fadeinUP, stagger } from "@/animations";
 
 const ProjectCard: FunctionComponent<{
   project: IProject;
-  showDetail:null|number;
-  setShowDetail: (id:null|number) => void;
+  showDetail: null | number;
+  setShowDetail: (id: null | number) => void;
 }> = ({
-  project: { id,name, image_path, category, deployed_url, description, github_url, key_techs
+  project: { id, name, image_path, category, deployed_url, description, github_url, key_techs, displayName
   },
   showDetail,
   setShowDetail,
 }) => {
 
     return (
-      <div>
+      <>
         <Image
           src={image_path}
           alt={name}
@@ -29,9 +29,9 @@ const ProjectCard: FunctionComponent<{
           height="150"
           width="300"
         />
-        <p className="my-2 text-center">{name}</p>
+        <p className="my-2 text-center flex flex-col justify-around">{name}</p>
 
-        {showDetail===id && (
+        {showDetail === id && (
           <div className="absolute top-0 left-0 z-10 grid w-full h-auto p-2 md:p-10 text-black bg-gray-300 md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100 rounded-lg">
             <motion.div
               variants={stagger}
@@ -46,22 +46,30 @@ const ProjectCard: FunctionComponent<{
                   layout="responsive"
                   height="150"
                   width="300"
+                  className="item-center"
                 />
               </motion.div>
 
               <motion.div variants={fadeinUP} className="flex justify-center my-4 space-x-3">
                 <a
                   href={github_url}
+                  target="_blank"
                   className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200 rounded-lg"
                 >
                   <AiFillGithub /> <span>Github</span>
                 </a>
-                <a
-                  href={deployed_url}
-                  className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200 rounded-lg"
-                >
-                  <AiFillProject /> <span>Project</span>
-                </a>
+                {
+                  displayName !== "None" && (
+                    <a
+                      href={deployed_url}
+                      target="_blank"
+                      className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200 rounded-lg"
+                    >
+                      <AiFillProject /> <span>{displayName}</span>
+                    </a>
+                  )
+                }
+
               </motion.div>
             </motion.div>
 
@@ -71,7 +79,7 @@ const ProjectCard: FunctionComponent<{
               initial='initial'
             >
               <motion.h2 variants={fadeinUP} className="mb-3 text-xl font-medium md:text-2xl">{name}</motion.h2>
-              
+
               <motion.h3 variants={fadeinUP} className="mb-3 font-medium">{description}</motion.h3>
 
               <motion.div variants={fadeinUP} className="flex flex-wrap mt-5 space-x-2 text-sm tracking-wider">
@@ -94,7 +102,7 @@ const ProjectCard: FunctionComponent<{
             </button>
           </div>
         )}
-      </div>
+      </>
     );
   };
 

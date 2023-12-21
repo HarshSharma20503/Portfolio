@@ -25,15 +25,6 @@ const Projects = () => {
     setActive(category);
   };
 
-  // const handleShowDetails = (id:number|null) => {
-  //   setShowDetail(id);
-  //   if(!!id){
-  //     const newArray = projects.filter((project)=> project.id===id);
-  //     setProjects(newArray);
-
-  //   }
-  // }
-
   return (
     <div className="px-5 py-2 overflow-y-scroll" style={{ height: "65vh" }}>
       <ProjectsNavbar
@@ -47,7 +38,7 @@ const Projects = () => {
         animate = 'animate'
       >
         {projects.map((project) => (
-          <motion.div className="col-span-12 p-2 bg-gray-200 rounded-lg sm:col-span-6 lg:col-span-4 dark:bg-dark-200 shadow-custom-light dark:shadow-custom-dark"
+          <motion.div className="flex flex-col col-span-12 p-2 bg-gray-200 rounded-lg sm:col-span-6 lg:col-span-4 dark:bg-dark-200 shadow-custom-light dark:shadow-custom-dark"
             variants={fadeinUP}
             key={project.name}
           >
