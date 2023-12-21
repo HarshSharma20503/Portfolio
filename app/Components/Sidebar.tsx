@@ -17,8 +17,8 @@ const Sidebar = () => {
             <Image
                 src="/Harsh_Sharma.webp"
                 alt="avatar of user"
-                width={128}
-                height={128}
+                width={160}
+                height={160}
                 className="mx-auto border rounded-full"
             />
             {/* <img src="https://jiitopticachapter.in/images/core%20team%20img/Harsh_Sharma.webp" alt="avatar of user" className='w-32 h-32 mx-auto border rounded-full ' /> */}

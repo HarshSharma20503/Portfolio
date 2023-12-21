@@ -1,9 +1,10 @@
 import { RiComputerLine } from "react-icons/ri";
 import { FaServer } from "react-icons/fa";
-import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
+import { AiOutlineAntDesign} from "react-icons/ai";
 import { MdDeveloperMode } from "react-icons/md";
 import { BsAndroid2 } from "react-icons/bs";
 import { IProject, Service, Skill } from "./types";
+import { LiaChalkboardTeacherSolid } from "react-icons/lia";
 
 import { BsCircleFill } from "react-icons/bs";
 
@@ -34,7 +35,7 @@ export const services: Service[] = [
         about: "Engaged in two college hubs, serving as Vice President in one and Coordinator in the other, contributing leadership and technical skills in technical roles.",
     },
     {
-        Icon: AiOutlineApi,
+        Icon: LiaChalkboardTeacherSolid,
         title: "Teaching Assistant",
         about: "Worked part-time at Ask Senior, assisting students enrolled in their CP course by addressing their doubts and providing support.",
     },
