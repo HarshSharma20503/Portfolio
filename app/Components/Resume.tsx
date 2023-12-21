@@ -1,11 +1,16 @@
 import Bar from '../Utility Components/Bar'
 import { languages, tools } from '@/data'
+import {motion} from 'framer-motion'
+import { fadeinUP } from '@/animations'
+
 const Resume = () => {
+
+  
   return (
     <div className='px-6 py-2'>
       {/* //! Education & Experience */}
       <div className='grid gap-6 md:grid-cols-2'>
-        <div className='text-grey'>
+        <motion.div variants={fadeinUP} initial = "initial" animate = "animate" className='text-grey'>
           <h5 className='my-3 text-2xl font-bold'>Education</h5>
           <div className=''>
             <h5 className='my-2 text-xl font-bold '>
@@ -33,8 +38,9 @@ const Resume = () => {
               Percentage : 96.00%
             </p>
           </div>
-        </div>
-        <div className='text-grey'>
+        </motion.div>
+
+        <motion.div variants={fadeinUP} initial = "initial" animate = "animate" className='text-grey'>
           <h5 className='my-3 text-2xl font-bold'>Experience</h5>
           <div className=''>
             <h5 className='my-2 text-xl font-bold'>
@@ -54,10 +60,9 @@ const Resume = () => {
               Giving feedback to for improving the quality of the course content.
             </p>
           </div>
-        </div>
+        </motion.div>
       </div>
 
-      {/*Languages & Tools */}
       <div className='grid gap-9 md:grid-cols-2'>
         <div className='text-grey'>
           <h5 className='my-3 text-2xl font-bold'>Language & Framework</h5>
