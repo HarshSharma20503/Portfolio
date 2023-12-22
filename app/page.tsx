@@ -7,12 +7,12 @@ import {useState, useEffect} from 'react'
 
 const page = () => {
 
-  const [mounted,setMounted] = useState(false);
+  const [Mounted,setMounted] = useState(false);
 
   useEffect(()=>{
     setMounted(true);
   },[]);
-  if(!mounted){
+  if(!Mounted){
     return null;
   }
 
