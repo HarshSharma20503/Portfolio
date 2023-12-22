@@ -16,7 +16,7 @@ const NavItem: FunctionComponent<NavItemProps> = ({ active, setActive, name }) =
   return active !== name ? (
       <a>
         <span
-          className='mx-2 cursor-pointer hover:border-b-4 hover:text-green'
+          className='mx-2 cursor-pointer hover:border-b-4 hover:text-blue-400 dark:hover:text-green'
           onClick={() => setActive(name)}>
           {name}
         </span>
