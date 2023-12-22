@@ -28,8 +28,13 @@ const config: Config = {
         "custom-dark": "5px 5px 10px #0a0c0e , -5px -5px 10px #14161c",
       },
       colors: {
+
+        'blue' : {
+          DEFAULT: '#1eaecb'
+        },
         'green': {
-          DEFAULT: '#00f260'
+          DEFAULT: '#00f260',
+          800 :'#8ceeaf'
         },
         dark:{
           DEFAULT: "#010101",
@@ -38,7 +43,7 @@ const config: Config = {
           300: "#16181d",
           500: "#0f1115",
           700: "#202125",
-        }
+        },
       },
     },
   },
