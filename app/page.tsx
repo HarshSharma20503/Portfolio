@@ -5,7 +5,7 @@ import { ThemeProvider } from 'next-themes'
 import {useState, useEffect} from 'react'
 
 
-const page = () => {
+const Page = () => {
 
   const [Mounted,setMounted] = useState(false);
 
@@ -34,4 +34,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
