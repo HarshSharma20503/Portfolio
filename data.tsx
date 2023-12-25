@@ -171,7 +171,7 @@ export const projects: IProject[] = [
         displayName : "Demo Video",
         description:
             "NotesApp is a simple Android application developed using Android Studio, Java, and Firebase. This app allows users to create, update, and delete notes, while also incorporating Firebase authentication for user management. Additionally, Firebase Storage is utilized for efficient and secure storage of media files associated with the notes.",
-        image_path: "/images/CodersHub.png",
+        image_path: "/images/NotesApp.png",
         deployed_url: "https://www.youtube.com/watch?v=K2l7DIuo5Ik",
         github_url: "https://github.com/HarshSharma20503/NotesApp",
         category: ["android","firebase"],
