@@ -165,4 +165,16 @@ export const projects: IProject[] = [
             "This project is an Employee Record Management System implemented in C++. It allows users to perform various operations related to employee records, such as inserting, deleting, searching, modifying, and viewing employee records.",
         key_techs: ["C++", "AVL Tree", "Trie"],
     },
+    {
+        id: 6,
+        name: "NotesApp",
+        displayName : "Demo Video",
+        description:
+            "NotesApp is a simple Android application developed using Android Studio, Java, and Firebase. This app allows users to create, update, and delete notes, while also incorporating Firebase authentication for user management. Additionally, Firebase Storage is utilized for efficient and secure storage of media files associated with the notes.",
+        image_path: "/images/CodersHub.png",
+        deployed_url: "https://www.youtube.com/watch?v=K2l7DIuo5Ik",
+        github_url: "https://github.com/HarshSharma20503/NotesApp",
+        category: ["android","firebase"],
+        key_techs: ["Android Studio", "Java","Firebase Auth", "Firebase Storage"],
+    },
 ];
