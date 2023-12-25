@@ -106,7 +106,7 @@ export const projects: IProject[] = [
         description:
             "CodersHub simplifies access to coding profiles, addressing challenges faced by coders on platforms like LeetCode and Codeforces via mobile devices. The mobile application streamlines the process of checking profiles and ratings, eliminating the need for taking screenshots or repeated logins. With its user-friendly interface, CodersHub consolidates coding profiles, providing a seamless experience for tackling daily problems from various platforms in one place.",
         image_path: "/images/CodersHub.png",
-        deployed_url: "https://covid-19-tracker-by-sumit.web.app/",
+        deployed_url: "https://www.youtube.com/watch?v=rqHtNsME9v4",
         github_url: "https://github.com/HarshSharma20503/CodersHub",
         category: ["android","firebase"],
         key_techs: ["Android Studio", "Java", "Web Scraping", "Firebase Auth", "Firebase Storage", "Firebase Messaging", "Python"],
