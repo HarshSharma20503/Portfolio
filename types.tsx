@@ -24,4 +24,4 @@ export interface IProject {
   key_techs: string[];
 }
 
-export type Category = "react" | "express" | "android" | "mongo" | "firebase" | "C++" | "Next";
+export type Category = "react" | "express" | "android" | "mongodb" | "firebase" | "C++" | "Next" |"RestApi";

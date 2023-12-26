@@ -65,9 +65,9 @@ const Sidebar = () => {
             <div
                 className='py-4 my-5 bg-gray-200 dark:bg-dark-200 dark:bg-black-500'
                 style={{ marginLeft: '-1rem', marginRight: '-1rem' }}>
-                <div className='flex items-center justify-center'>
+                {/* <div className='flex items-center justify-center'>
                     <GoLocation className='mr-2' /> <span>Greater Noida,India </span>
-                </div>
+                </div> */}
                 <p className='my-2 '> Harshsharma20503@gmail.com</p>
                 <p className='my-2'> 8383936346 </p>
             </div>

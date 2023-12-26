@@ -24,11 +24,11 @@ const About = () => {
           animate = 'animate'
         >
           {/* children's initial and animate property should be same as the parent during a stagger effect  */}
-          {services.map((service) => (
+          {services.map((service, index) => (
             <motion.div
               variants={fadeinUP}
 
-              className="col-span-2 p-2 bg-gray-200 rounded-lg dark:bg-dark-200 md:col-span-1 "
+              className={`col-span-2 p-2 bg-gray-200 rounded-lg dark:bg-dark-200 md:col-span-1 ${index >= services.length - 2 ? 'hidden md:block' : ''}`}
               key={service.title}
             >
               <ServiceCard service={service} />

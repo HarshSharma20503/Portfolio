@@ -100,6 +100,18 @@ export const tools: Skill[] = [
 
 export const projects: IProject[] = [
     {
+        id: 7,
+        name: "MyContact-RestAPI",
+        displayName : "None",
+        description:
+            "MyContacts_Backend is a Node.js and Express.js-based REST API for managing user contacts, featuring operations like retrieving, adding, and deleting contacts. It includes user authentication with endpoints for registration, login, and token-based authentication using JSON Web Tokens (JWT), all backed by MongoDB.",
+        image_path: "/images/REST-API.png",
+        deployed_url: "/",
+        github_url: "https://github.com/HarshSharma20503/MyContacts_Backend",
+        category: ["RestApi"],
+        key_techs: ["Insomina", "JavaScript","JWT", "Express", "MongoDB","Node"],
+    },
+    {
         id: 1,
         name: "CodersHub",
         displayName : "Demo Video",
@@ -140,7 +152,6 @@ export const projects: IProject[] = [
             "Bootstrap",
         ],
     },
-
     {
         id: 4,
         name: "Portfolio",
@@ -153,7 +164,6 @@ export const projects: IProject[] = [
             "Explore my portfolio project—a concise compilation offering a comprehensive overview of my diverse skill set and experiences. Through an intuitive interface, it seamlessly presents a spectrum of projects, emphasizing simplicity, functionality, and practicality, providing a nuanced reflection of my professional journey.",
         key_techs: ["Next", "Typescript", "Tailwind"],
     },
-    
     {
         id: 5,
         name: "Employee Record Management System",
