@@ -153,6 +153,7 @@ export const projects: IProject[] = [
             "Explore my portfolio project—a concise compilation offering a comprehensive overview of my diverse skill set and experiences. Through an intuitive interface, it seamlessly presents a spectrum of projects, emphasizing simplicity, functionality, and practicality, providing a nuanced reflection of my professional journey.",
         key_techs: ["Next", "Typescript", "Tailwind"],
     },
+    
     {
         id: 5,
         name: "Employee Record Management System",
